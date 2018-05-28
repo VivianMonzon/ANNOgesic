@@ -833,7 +833,7 @@ like CDSs, tRNAs, rRNAs, genome annotation gff files are required. There are fou
       --modify_transcript {merge_overlap,extend_3end,extend_5end,within_extend_ends,none} [{merge_overlap,extend_3end,extend_5end,within_extend_ends,none} ...], -mt {merge_overlap,extend_3end,extend_5end,within_extend_ends,none} [{merge_overlap,extend_3end,extend_5end,within_extend_ends,none} ...]
                             If --annotation_files is provided, the post-
                             modification of transcript based on genome annotations
-                            can be assigned. There are five opetions. 1.
+                            can be assigned. There are five options. 1.
                             "merge_overlap": if multiple transcripts overlap with
                             the same gene, they will be merged as one complete
                             transcript. 2. "extend_3end": if a transcript starts
