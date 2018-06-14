@@ -1405,10 +1405,10 @@ First irow is header of the table, the last column is the name of promoter motif
 If subcommand ``promoter`` was implemented before, the table will be generated automatically.
 Please refer to the section :ref:`promoter`.
 
-- **Filers with the corresponding input files and tools**
+- **Filters with the corresponding input files and tools**
 
 There are some filters which can improve the prediction. The user can assign the information to remove false positive. 
-If the information is not assigned to be a filter, it still can input to the module. Then, the information will 
+If the information is not assigned to be a filter, it can still serve as input to the module. Then, the information will 
 be shown in the output files, but this information is not considered as a filter. For an example, if terminator association 
 is not assigned to be a filter, the user still can specify the path of terminator gff files. The associated terminators 
 will be shown in output gff files and tables, but the sRNA candidates which are not associated with terminators will 
